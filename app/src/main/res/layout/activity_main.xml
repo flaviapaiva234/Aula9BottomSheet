@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_roxo_salmao"
+    tools:context=".MainActivity">
+
+    <!--essa tag abaixo inclui outra activity-->
+
+
+    <include
+        android:id="@+id/bottomSheetIncluido"
+        layout="@layout/custom_bottom_sheet" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/btnClickAqui"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.266"
+        app:srcCompat="@drawable/emoji_ta_certinho" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAlegria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/button"
+        android:text="Alegria"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        app:backgroundTint="@color/white"
+        android:textColor="#9C27B0"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSubir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="260dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/white"
+        android:text="Subir"
+        android:textAllCaps="false"
+        android:textColor="#9C27B0"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDialogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="280dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/white"
+        android:text="Dialogo"
+        android:textAllCaps="false"
+        android:textColor="#9C27B0"
+        android:textSize="16sp" />
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

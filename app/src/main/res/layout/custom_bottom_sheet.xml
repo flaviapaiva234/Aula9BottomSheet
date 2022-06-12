@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_pink_purple"
+    android:padding="20dp"
+    android:paddingBottom="10dp"
+    android:id="@+id/bottomSheet"
+    app:behavior_hideable="false"
+    android:visibility="visible"
+    app:behavior_peekHeight="120dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <!-- app:behavior_hideable="false" é para não deixar que o bottomSheet suma
+    app:behavior_peekHeight="50dp" é o tanto que vai ficar visível
+    -->
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_baseline_remove_24"
+        android:padding="3dp"
+        >
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/tvBv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sejam Bem-vindos"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+        android:textSize="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="6dp"
+        android:textCursorDrawable="@drawable/ic_edit_24"
+        android:background="@drawable/bg_white"
+        android:padding="3dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/tvCopy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copy"
+        android:textSize="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/bg_white"
+        android:padding="3dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tvCut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cut"
+        android:textSize="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/bg_white"
+        android:padding="3dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tvMove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move"
+        android:textSize="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/bg_white"
+        android:padding="3dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/tvDelet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delet"
+        android:textSize="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="6dp"
+        android:background="@drawable/bg_white"
+        android:padding="3dp"
+        android:gravity="center"
+        />
+
+</LinearLayout>
