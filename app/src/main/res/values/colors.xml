@@ -8,6 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="Peach">#F3C0B0</color>
+    <color name="red">#ED0000</color>
     <color name="Wine">#920102</color>
     <color name="Pink_DarkPink">#F766AD</color>
     <color name="Pink_LightPink">#F192B8</color>
@@ -25,5 +26,7 @@
     <color name="Roxo_escuro">#940D96</color>
     <color name="Blue_Light_Blue">#A7D9DD</color>
     <color name="Blue_azul_piscina">#97E4FE</color>
+    <color name="Blue_firebase">#0295DD</color>
+    <color name="Blue_dark_blue">#010095</color>
 
 </resources>

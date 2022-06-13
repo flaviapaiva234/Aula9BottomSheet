@@ -34,7 +34,7 @@
         android:layout_gravity="center"
         android:layout_marginBottom="100dp"
         android:background="@drawable/button"
-        android:text="Alegria"
+        android:text="Joy"
         android:padding="10dp"
         android:textAllCaps="false"
         app:backgroundTint="@color/white"
@@ -49,20 +49,20 @@
         android:layout_marginStart="260dp"
         android:background="@drawable/button"
         android:backgroundTint="@color/white"
-        android:text="Subir"
+        android:text="PopUp"
         android:textAllCaps="false"
         android:textColor="#9C27B0"
         android:textSize="16sp" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnDialogo"
+        android:id="@+id/btnDialogS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginEnd="280dp"
         android:background="@drawable/button"
         android:backgroundTint="@color/white"
-        android:text="Dialogo"
+        android:text="Dialog"
         android:textAllCaps="false"
         android:textColor="#9C27B0"
         android:textSize="16sp" />
